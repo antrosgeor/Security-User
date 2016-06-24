@@ -1,0 +1,229 @@
+/* CSS Document */
+
+    body {
+    	font-family: Tahoma, Geneva, sans-serif;
+    	font-size: 10pt;
+    	color: #333;
+    	background-color: #000000;
+    	
+    /*353232*/
+    }
+
+    #container {
+      	border: 1px solid #666;
+	    width: 80%;
+	    min-width: 600px;
+	    margin: 0px auto;
+    }
+
+/* --- HEADER --------------------------------------------*/
+    #header {
+      height: 100px;
+      background-color: #232323;
+      margin: 0;
+      padding: 0;
+      position: relative;
+    }
+
+    #header h1 {
+      color: #FFFFFF;
+      font-size: 40px;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      left: 80px;
+      top: 20px;
+    }
+    #header p {
+      color: #FFFFFF;
+      font-size: 20px;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      right: 60px;
+      top: 60px;
+    }
+    
+/*-----ΤΕΧΤ-------------------------------------------------*/
+
+
+/* --- SIDEBAR -------------------------------------------*/
+    #leftsidebar {
+      width: 180px;
+      float: left;
+      min-height: 300px;
+      padding: 10px;
+      margin: 0;
+    }
+
+    #leftsidebar ul {
+      list-style-type: none;
+      padding:0;
+       margin:0;
+    }
+
+    #leftsidebar ul li {
+      background-color: #929191;
+      border: solid thin #999;
+      height: 20px;
+      margin: 5px 0 0 0;
+      padding: 5px;
+      text-align: right;
+      font-size: 15px;
+    }
+
+    #leftsidebar ul li a {
+      text-decoration: none;
+      color: #ECECEC;
+    }
+
+    #leftsidebar ul li a:hover {
+      font-weight: 600;
+    }
+
+
+
+
+
+
+/* --- MAIN ----------------------------------------------*/
+    #main {
+	      padding: 2em;
+	      margin: 0 0 0 200px;
+	      border-left: solid 1px #aaa;
+	      line-height: 130%;
+	      min-height: 300px;
+          color: #ECECEC;
+    }
+    
+    #maind input {  
+   		 color: #FFFFFF;
+   		 background-color: #1C1C1C;  
+   		 margin: 10px;
+   		 width: 250px;
+   		 height: 25px;
+   		 line-height: 14px;
+   		 width="400";
+   		 font-size: 15px;
+	}
+	
+	#maind textarea {  
+   		 color: #FFFFFF;
+   		 background-color: #1C1C1C;  
+   		 margin: 10px;
+   		 width: 500px;
+   		 height: 150px;
+   		 line-height: 14px;
+   		 width="400";
+   		 font-size: 15px;
+	}
+	
+/*----- Buttons ------*/
+
+.btn-success {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.btn-success:focus,
+.btn-success.focus {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #255625;
+}
+.btn-success:hover {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #398439;
+}
+.btn-success:active,
+.btn-success.active,
+.open > .dropdown-toggle.btn-success {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #398439;
+}
+.btn-success:active:hover,
+.btn-success.active:hover,
+.open > .dropdown-toggle.btn-success:hover,
+.btn-success:active:focus,
+.btn-success.active:focus,
+.open > .dropdown-toggle.btn-success:focus,
+.btn-success:active.focus,
+.btn-success.active.focus,
+.open > .dropdown-toggle.btn-success.focus {
+  color: #fff;
+  background-color: #398439;
+  border-color: #255625;
+}
+.btn-success:active,
+.btn-success.active,
+.open > .dropdown-toggle.btn-success {
+  background-image: none;
+}
+.btn-success.disabled:hover,
+.btn-success[disabled]:hover,
+fieldset[disabled] .btn-success:hover,
+.btn-success.disabled:focus,
+.btn-success[disabled]:focus,
+fieldset[disabled] .btn-success:focus,
+.btn-success.disabled.focus,
+.btn-success[disabled].focus,
+fieldset[disabled] .btn-success.focus {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.btn-success .badge {
+  color: #5cb85c;
+  background-color: #fff;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+
+
+/* --- FOOTER --------------------------------------------*/
+    #footer {
+      	clear: both;
+    	background-color: #232323;
+    	text-align:center;
+    	color: #ECECEC;
+      	height: 20px;
+      	padding: 10px;
+      	margin: 0;
+    }
+
+    #leftfooter {    	
+      	float:left;
+    }
+
+    #rightfooter {
+      	float:right;
+    }
+    
+
+
+
+
+
+
